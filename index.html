@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="fr">
+<meta charset="UTF-8">
+<head>
+    <link rel="stylesheet" type="text/css" href="interface.css" />
+</head>
+<body>
+    <div id="div_flex">
+        <div id="div_click">
+            <button onclick="fromagesClick(1)">Click Me!</button>
+        </div>
+        <div id="div1">
+            <button onclick="buyFromagers()">Achat Fromagers</button><button onclick="upgradeFromagers()">Lvl up</button>
+            <p>Fromagers: <span id="fromagers">0</span> Niveau Fromagers: <span id="lvlFromagers">0</span></p>
+            <p>Cout Fromagers: <span id="fromagersCost">10</span> Cout niveau supplémentaire: <span id="fromagersUpgrade">250</span></p>
+        </div>
+        <div id="div2">
+            <button onclick="buyLaiterie()">Achat Laiterie</button><button onclick="upgradeLaiterie()">Lvl up</button>
+            <br />
+            <p>Laiteries: <span id="laiterie">0</span> Niveau Laiterie: <span id="lvlLaiterie">0</span></p>
+            <p>Cout Laiterie: <span id="laiterieCost">30</span> Cout niveau supplémentaire: <span id="laiterieUpgrade">500</span></p>
+            </div>
+        <div id="div3">
+            <button onclick="buyFromagerie()">Achat Fromagerie</button>
+            <p>Fromageries <span id="fromagerie">0</span></p>
+            <p>Cout Fromagerie: <span id="fromagerieCost">100</span></p>
+        </div>
+    </div>
+    <div id="main_div">
+            <p id="count">Fromages: <span id="fromages">0</span></p>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+</body>
